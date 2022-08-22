@@ -1,7 +1,6 @@
 <script>
 	import MainNav from './MainNav.svelte';
 	import HamburgerMenuButton from './HamburgerMenuButton.svelte';
-	import { siteTitle } from '$lib/config';
 
 	const focusMain = () => {
 		const main = document.querySelector('main');
@@ -24,8 +23,13 @@
 
 <style>
 	.logo {
+		display: block;
 		width: 20%;
 		border-radius: 10%;
+		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+	}
+	.logo:hover {
+		box-shadow: 10px 10px 20px rgba(1000, 0, 0, 0.4);
 	}
 	@media screen and (max-width: 380px) {
 		.logo {
