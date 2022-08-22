@@ -1,6 +1,6 @@
-# SvelteKit static blog starter
+# SvelteKit static blog and portfolio
 
-This starter contains everything you need to get up and running with [SvelteKit](https://kit.svelte.dev/) as a static site generator for your Markdown (and Svelte)-powered blog. [Check out the demo here](https://sveltekit-static-starter.netlify.app/), or view the [GitHub repo here](https://github.com/josh-collinsworth/sveltekit-blog-starter).
+This development contains everything you need to get up and running with [SvelteKit](https://kit.svelte.dev/) as a static site generator for your Markdown (and Svelte)-powered blog. the initial [GitHub repo](https://github.com/josh-collinsworth/sveltekit-blog-starter) is here.
 
 ## Features
 
@@ -14,38 +14,11 @@ This starter contains everything you need to get up and running with [SvelteKit]
 - 📝 **mdsvex** pre-installed--use Svelte components inside Markdown!
 	- 🔗 **Rehype** plugins are included to generate unique heading IDs, for direct linking
 - 📱 **Responsive and accessible defaults**; includes a "skip to content" link and accessible mobile nav menu
-- 🔄 **Page transitions** (_fancy!_)
-- 🔎 **Basic SEO** for blog posts (_strongly recommend checking that out for yourself, though_)
-- 📰 **RSS feed** set up and ready to go (_though it could also likely benefit from some optimization_); just update `src/lib/config.js`
+- 🔄 **Page transitions**
+- 🔎 **Basic SEO** for blog posts
+- 📰 **RSS feed** set up and ready to go
 
 
-## Quick Start
-
-Clone or download [this repo](https://github.com/josh-collinsworth/sveltekit-blog-starter), then install the dependencies and run the dev server:
-
-```
-npx degit https://github.com/josh-collinsworth/sveltekit-blog-starter my-sveltekit-blog
-cd my-sveltekit-blog
-npm install
-npm run dev -- --open
-```
-
-That should get a dev server up and running (assuming you have npm and Node installed already). Any saved changes to components and styles should auto-refresh blazingly fast.
-
-Now all you need to do is:
-
-- Update the `src/lib/config.js` file
-- Drop your Markdown posts into `src/lib/posts`
-- Customize the styles in `lib/assets/scss`
-
-GLHF! Details below. 👇
-
-
-## Customization
-
-Be sure to update `src/lib/config.js` to reflect your site's domain, preferences, etc. This is also where the nav menu can be updated.
-
-**It's very important to update this file with the specific details of your site.** Info from this file is used in your RSS feed and SEO meta tags, so don't launch without updating it.
 
 
 ## Adding new posts
@@ -125,11 +98,3 @@ That should do it on a host like Netlify or Vercel. Or, if you prefer, you can r
 Use `npm run preview` _after_ a build to preview the built site.
 
 
-## Further documentation
-
-I assume at least a little bit of knowledge of SvelteKit and/or similar static site generators here, but be sure to read [the SvelteKit docs](https://kit.svelte.dev/docs) for more info.
-
-
-## Contributing
-
-I've tried my best to make sure this starter is up to date with the latest SvelteKit, but I'm sure improvements can be made. Feel free to [visit the repo](https://github.com/josh-collinsworth/sveltekit-blog-starter) and submit a pull request, or [contact me directly](https://joshcollinsworth.com/contact).
