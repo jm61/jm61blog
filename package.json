@@ -25,6 +25,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "just-throttle": "^4.1.1",
     "svelte-preprocess": "^4.10.7"
   }

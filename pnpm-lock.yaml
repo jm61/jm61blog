@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@emailjs/browser': ^3.6.2
   '@sveltejs/adapter-static': ^1.0.0-next.39
   '@sveltejs/kit': next
   eslint: ^7.32.0
@@ -18,6 +19,7 @@ specifiers:
   vite: ^3.0.9
 
 dependencies:
+  '@emailjs/browser': 3.6.2
   just-throttle: 4.1.1
   svelte-preprocess: 4.10.7_sass@1.54.5+svelte@3.49.0
 
@@ -57,6 +59,11 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
+
+  /@emailjs/browser/3.6.2:
+    resolution: {integrity: sha512-Swc8w+vwDX4XPy6tPegOFGSwHqNiEmEsIKbtAkqHo2WqnS0ORZUnnuZats2R3XqwfxNQD0F6RwnlVWHIMf6sCQ==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /@esbuild/linux-loong64/0.14.54:
     resolution: {integrity: sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==}

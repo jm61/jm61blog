@@ -9,7 +9,7 @@ export const siteTitle = 'JM61.dev Blog';
 export const siteDescription = 'Built with the SvelteKit Static Blog Starter';
 export const siteURL = 'https://jm61.dev';
 export const siteLink = '';
-export const siteAuthor = 'Jean Moirano, initial template by Josh Collinsworth';
+export const siteAuthor = 'JM61.dev, initial template by Josh Collinsworth';
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 10;

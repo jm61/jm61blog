@@ -1,25 +1,35 @@
 <script>
-	import MainNav from './MainNav.svelte'
-	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
-	import { siteTitle } from '$lib/config'
+	import MainNav from './MainNav.svelte';
+	import HamburgerMenuButton from './HamburgerMenuButton.svelte';
+	import { siteTitle } from '$lib/config';
 
 	const focusMain = () => {
 		const main = document.querySelector('main');
 		main.focus();
-	}
+	};
 </script>
-
 
 <header>
 	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
 		Skip to main content
 	</a>
-	
+
 	<a href="/" class="site-title">
-		{siteTitle}
+		<img src="/images/logo.webp" alt="logo" class="logo" />
 	</a>
-	
+
 	<HamburgerMenuButton />
 	<MainNav />
-
 </header>
+
+<style>
+	.logo {
+		width: 20%;
+		border-radius: 10%;
+	}
+	@media screen and (max-width: 380px) {
+		.logo {
+			width: 40%;
+		}
+	}
+</style>
