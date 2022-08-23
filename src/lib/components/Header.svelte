@@ -19,8 +19,6 @@
 		</a>
 	</div>
 
-	<div class="box" />
-
 	<HamburgerMenuButton />
 	<MainNav />
 </header>
@@ -36,19 +34,36 @@
 		background: linear-gradient(90deg, rgb(149, 170, 95) 38%, rgba(169, 132, 103, 1) 73%);
 	}
 	.contLogo {
-		max-width: 50%;
+		max-width: 400px;
+		background-image: url('/images/bg0.jpg');
+		border-radius: 1rem;
+		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
 	}
 	.logo {
 		width: 40%;
 		border-radius: 10%;
-		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
 	}
 	.logo:hover {
 		box-shadow: 10px 10px 20px rgba(50, 100, 0, 0.4);
+		animation-name: rotation;
+		animation-duration: 1s;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate;
 	}
 	@media screen and (max-width: 380px) {
 		.logo {
 			width: 50%;
+		}
+		.contLogo {
+			max-width: 80%;
+		}
+	}
+	@keyframes rotation {
+		50% {
+			transform: rotate(-10deg);
+		}
+		100% {
+			transform: rotate(0deg);
 		}
 	}
 </style>

@@ -85,16 +85,3 @@ Things that should just live in the site root of the finished site (like a `robo
 (Placeholder images credit [Unsplash](https://unsplash.com); photographer names are in the file names.)
 
 
-## Building and deploying
-
-The build command (from package.json) is simply:
-
-```
-npm run build
-```
-
-That should do it on a host like Netlify or Vercel. Or, if you prefer, you can run `npm run build` to generate the static files, then upload those (they'll be generated into a `build` folder).
-
-Use `npm run preview` _after_ a build to preview the built site.
-
-### PUSH
