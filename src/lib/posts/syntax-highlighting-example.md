@@ -7,7 +7,7 @@ categories:
   - "web"
   - "css"
   - "markdown"
-coverImage: "/images/linus-nylund-Q5QspluNZmM-unsplash.jpg"
+coverImage: "/images/prism.webp"
 coverWidth: 16
 coverHeight: 9
 excerpt: This post shows you how syntax highlighting works here.

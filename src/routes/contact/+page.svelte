@@ -3,7 +3,7 @@
 	init('uMXASuONdO5-rWg3X');
 
 	function sendMessage() {
-		let message = document.querySelector('.contactForm');
+		let message = document.querySelector('#contactForm');
 		let btn = document.querySelector('button');
 		btn.innerText = 'Message en transit...';
 		sendForm('default_service', 'template_srh55ud', message)
@@ -30,7 +30,7 @@
 <h1 class="text-center m-12 text-2xl">CONTACT</h1>
 
 <div>
-	<form class="form" on:submit|preventDefault={sendMessage}>
+	<form class="form" on:submit|preventDefault={sendMessage} id="contactForm">
 		<div class="form-control">
 			<label class="label" for="text">
 				<span class="label-text">Votre nom</span>
