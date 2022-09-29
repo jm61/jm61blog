@@ -29,7 +29,7 @@ export const navItems = [
 		route: '/contact'
 	},
 	{
-		title: 'Portfolio',
-		route: '/portfolio'
+		title: 'Projects',
+		route: '/projects'
 	}
 ];
