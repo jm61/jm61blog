@@ -31,5 +31,9 @@ export const navItems = [
 	{
 		title: 'Projects',
 		route: '/projects'
+	},
+	{
+		title: 'Golang',
+		route: '/golang'
 	}
 ];

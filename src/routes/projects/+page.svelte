@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>Projects</title>
+</svelte:head>
 <h2>PROJECTS</h2>
 
 <article>
