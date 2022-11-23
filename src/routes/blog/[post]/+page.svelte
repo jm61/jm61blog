@@ -28,7 +28,7 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 		class="cover-image"
 		src="{coverImage}"
 		alt=""
-		style="aspect-ratio: {coverWidth} / {coverHeight};"
+		style="width: {coverWidth};"
 		width={coverWidth}
 		height={coverHeight}
 	/>

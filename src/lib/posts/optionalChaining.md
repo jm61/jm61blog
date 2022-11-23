@@ -5,7 +5,7 @@ updated: "2022-08-22"
 categories: 
   - "javascript"
 coverImage: "/images/optionalChaining.jpg"
-coverWidth: 16
+coverWidth: 50%
 coverHeight: 9
 excerpt: The optional chaining operator (?.) enables you to read the value of a property located deep within a chain of connected objects without having to check that each reference in the chain is valid. 
 ---

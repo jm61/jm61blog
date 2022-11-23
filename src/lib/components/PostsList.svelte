@@ -13,7 +13,7 @@
 					alt=""
 					width={post.coverWidth}
 					height={post.coverHeight}
-					style="ratio: {post.coverWidth} / {post.coverHeight}"
+					style="width: {post.coverWidth};border-radius: 10px;"
 					/>
 					<h2>
 						{post.title}

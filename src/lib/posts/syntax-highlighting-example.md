@@ -8,7 +8,7 @@ categories:
   - "css"
   - "markdown"
 coverImage: "/images/prism.webp"
-coverWidth: 16
+coverWidth: 50%
 coverHeight: 9
 excerpt: This post shows you how syntax highlighting works here.
 ---

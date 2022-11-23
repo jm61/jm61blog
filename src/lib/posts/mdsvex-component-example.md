@@ -7,7 +7,7 @@ categories:
   - "markdown"
   - "svelte"
 coverImage: "/images/mdsvex.webp"
-coverWidth: 16
+coverWidth: 50%
 coverHeight: 9
 excerpt: This post demonstrates how to include a Svelte component in a Markdown post.
 ---
